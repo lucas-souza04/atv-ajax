@@ -17,15 +17,15 @@ comprimento do piso);
 
 Você deverá criar também um arquivo php que receberá uma requisição assíncrona e devolverá a quantidade de material necessário para a obra. Para isso, utilize as seguintes fórmulas:
 
-##Calcule a área do cômodo:
-  Área do cômodo = Largura do cômodo * Comprimento do cômodo
+## Calcule a área do cômodo:
+- Área do cômodo = Largura do cômodo * Comprimento do cômodo
 
-##Calcule a área de cada piso ou azulejo:
-  Área do piso = Largura do piso * Comprimento do piso
+## Calcule a área de cada piso ou azulejo:
+- Área do piso = Largura do piso * Comprimento do piso
 
-##Calcule a quantidade de pisos necessária (sem margem extra):
-  Quantidade de pisos = Área do piso / Área do cômodo
+## Calcule a quantidade de pisos necessária (sem margem extra):
+- Quantidade de pisos = Área do piso / Área do cômodo
 
-##Inclua uma margem extra (caso haja quebras ou necessidades de ajustes):
-  Quantidade total = Quantidade de pisos * (1 + 100 Porcentagem de margem extra)
-  Arredonde para cima para garantir que nenhum espaço fique sem cobertura
+## Inclua uma margem extra (caso haja quebras ou necessidades de ajustes):
+- Quantidade total = Quantidade de pisos * (1 + 100 Porcentagem de margem extra)
+Arredonde para cima para garantir que nenhum espaço fique sem cobertura
