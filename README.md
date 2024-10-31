@@ -27,5 +27,5 @@ Você deverá criar também um arquivo php que receberá uma requisição assín
 - Quantidade de pisos = Área do piso / Área do cômodo
 
 ## Inclua uma margem extra (caso haja quebras ou necessidades de ajustes):
-- Quantidade total = Quantidade de pisos * (1 + 100 Porcentagem de margem extra)
+- Quantidade total = Quantidade de pisos * (1 + 100 Porcentagem de margem extra) <br/>
 Arredonde para cima para garantir que nenhum espaço fique sem cobertura
